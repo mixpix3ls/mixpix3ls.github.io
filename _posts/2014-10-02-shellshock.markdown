@@ -23,11 +23,11 @@ Found non-exploitable CVE-2014-6278 (lcamtuf bug #2)
 
 Keen observers may have noticed that the script also outputs the location of the Bash executable. In the case above, it's `/opt/local/bin/bash` as opposed to `/bin/bash`. I use the [MacPorts][MacPorts] version of Bash instead of Apple's include Bash since Apple has a history of included outdated or modified versions of Unix utitlies in their operating system. While Apple has released a [patch][Apple Bash update], it's still a major version way from the latest available version.
 
+Whichever way you go, make sure you apply the patch!
+
 [bashcheck]:          https://github.com/hannob/bashcheck
 [CVE]:                http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271
 [GNU Bash]:           https://www.gnu.org/software/bash/
 [OS X]:               http://www.apple.com/osx/
 [MacPorts]:           http://www.macports.org
 [Apple Bash update]:  http://support.apple.com/kb/DL1769
-
-Whichever way you go, make sure you apply the patch!
