@@ -1,0 +1,12 @@
+# Site settings
+title: mixpix3ls
+email: admin@mixpix3ls.net
+description: > # this means to ignore newlines until "baseurl:"
+  Thoughts on technology
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mixpix3ls.net" # the base hostname & protocol for your site
+twitter_username: mixpix3ls
+github_username:  mixpix3ls
+
+# Build settings
+markdown: kramdown
