@@ -76,8 +76,6 @@ sudo port select --set pip pip27
 sudo port search py*-virtualenv
 {% endhighlight %}
 
-## List installed virtualenvs
-
 ## Install virtualenv 1.11.6 for Python v2.7
 
 {% highlight bash %}
