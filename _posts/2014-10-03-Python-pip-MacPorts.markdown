@@ -78,10 +78,6 @@ sudo port search py*-virtualenv
 
 ## List installed virtualenvs
 
-{% highlight bash %}
-sudo port select --list virtualenv
-{% endhighlight %}
-
 ## Install virtualenv 1.11.6 for Python v2.7
 
 {% highlight bash %}
