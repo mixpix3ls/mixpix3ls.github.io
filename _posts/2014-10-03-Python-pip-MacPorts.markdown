@@ -100,4 +100,6 @@ sudo port select --list virtualenv
 sudo port select --set virtualenv virtualenv27
 {% endhighlight %}
 
-Following the above should give you Python, pip and virtualenv for Python 2.7. As a bonus, MacPorts also ensures there's an `easy_install` version that's specific to your MacPorts Python installation. In the above case, it should be located in `<MacPorts_Home>/bin/easy_install-2.7`. If you can't remember the location of your MacPorts home directory, you can use bash completion by having it complete `easy_install`.
+Following the above should give you Python, pip and virtualenv for Python 2.7.
+
+As a bonus, MacPorts also ensures there's an `easy_install` version that's specific to your MacPorts Python installation. In the above case, it should be located in `<MacPorts_Home>/bin/easy_install-2.7`. If you can't remember the location of your MacPorts home directory, you can use bash completion by having it complete `easy_install`.
