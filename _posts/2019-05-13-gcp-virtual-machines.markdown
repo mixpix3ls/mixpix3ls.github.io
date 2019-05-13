@@ -27,6 +27,7 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 
 ## Create a VM
 
+
 1. Click on the search field in the banner (look for the magnifying glass icon), type `Virtual Machines` and choose *Instances - Compute Engine*
 2. On the *VM instances* page, click `Create`
 3. Enter the following details on the *Create an instance* page:
