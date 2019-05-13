@@ -51,13 +51,17 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 
 You should now be in a separate browser window with a Shell on your VM!
 
-## Install Nginx
+##Nginx
 
 With a Shell window open to your VM from the last section, enter the following in it:
+
+### Install Nginx package
 
 {% highlight bash %}
 sudo apt-get install nginx -y
 {% endhighlight %}
+
+### Verify Nginx listening on port 80
 
 Nginx should now be installed, started and listening on port 80 of the VM. To verify the this, execute the following in the shell window:
 
@@ -65,13 +69,54 @@ Nginx should now be installed, started and listening on port 80 of the VM. To ve
 netstat -plunt | grep 80
 {% endhighlight %}
 
-This should produce output similar to this:
+That should produce output similar to this:
 
 {% highlight bash %}
 tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      -                   
 tcp6       0      0 :::80                   :::*                    LISTEN      -                   
 {% endhighlight %}
 
+### Visit welcome page locally
+
+Verify that you can hit the Nginx Welcome Page locally on the VM by executing the following in the shell window:
+
+{% highlight bash %}
+curl localhost
+{% endhighlight %}
+
+That should produce output similar to this:
+
+{% highlight bash %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+{% endhighlight %}
+
+### Visit welcome page externally
+
+Back on the *VM instances* page, find your VM and click on the **External IP**  of your VM. This should take you to another browser session with the following content in your broswer window:
+
+![Nginx welcome content](assets/NginxWelcome.png)
 
 [Google Cloud Console]: https://console.cloud.google.com
 
