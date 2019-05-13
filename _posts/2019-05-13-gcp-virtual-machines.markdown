@@ -9,7 +9,7 @@ categories: Cloud
 
 Google Cloud Platform (GCP) is a cloud computing platform offered by Google containing many services spanning infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and software-as-a-service (SaaS). This enabled workloads of varying complexity to run on GCP, from static websites to sophisticated applications using managed databases and serverless technology.
 
-In this tutorial, you will execute the steps required to create a Linux Virtual Machine (VM) in GCP using the Google Cloud Console. You will then log in to that VM, install the Nginx web server and expose the VM to the internet.
+In this tutorial, you will execute the steps required to create a Linux Virtual Machine (VM) in GCP, log in to that VM and install the Nginx web server on it, all using the Google Cloud Console.
 
 # Prequisites
 
@@ -51,7 +51,7 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 
 You should now be in a separate browser window with a Shell on your VM!
 
-##Nginx
+## Nginx
 
 With a Shell window open to your VM from the last section, enter the following in it:
 
@@ -130,7 +130,9 @@ You have successfully created a VM in GCP and installed Nginx on it. This comple
 
 ## Conclusion
 
+Congratulations! In this tutorial, you created a Linux VM in GCP and install Nginx on it. You should now be familiar with the Google Cloud Console and where to find Projects and Compute Engine Instances.
 
+Don't stop here, move on to the next part of this series, where we do the same exercise as above via the `gcloud` tool in the Google Cloud SDK! 
 
 [Google Cloud Console]: https://console.cloud.google.com
 
