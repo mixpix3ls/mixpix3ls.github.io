@@ -116,7 +116,7 @@ Commercial support is available at
 
 Back on the *VM instances* page, find your VM and click on the **External IP**  of your VM. This should take you to another browser session with the following content in your broswer window:
 
-![Nginx welcome content](/assets/NginxWelcome.png =300x300)
+![Nginx welcome content](/assets/NginxWelcome.png)
 
 [Google Cloud Console]: https://console.cloud.google.com
 
