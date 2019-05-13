@@ -51,6 +51,27 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 
 You should now be in a separate browser window with a Shell on your VM!
 
+## Install Nginx
+
+With a Shell window open to your VM from the last section, enter the following in it:
+
+{% highlight bash %}
+sudo apt-get install nginx -y
+{% endhighlight %}
+
+Nginx should now be installed, started and listening on port 80 of the VM. To verify the this, execute the following in the shell window:
+
+{% highlight bash %}
+netstat -plunt | grep 80
+{% endhighlight %}
+
+This should produce output similar to this:
+
+{% highlight bash %}
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::80                   :::*                    LISTEN      -                   
+{% endhighlight %}
+
 
 [Google Cloud Console]: https://console.cloud.google.com
 
