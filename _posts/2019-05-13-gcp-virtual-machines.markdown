@@ -46,6 +46,5 @@ Skip all the other settings (use defaults for them)
 	
 4. Scroll to the bottom of the page and click `Create`
 
-
 [Google Cloud Console]: https://console.cloud.google.com
 [Hamburger Menu]: assets/hamburgerMenu.png
