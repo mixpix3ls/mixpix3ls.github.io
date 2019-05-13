@@ -132,7 +132,8 @@ You have successfully created a VM in GCP and installed Nginx on it. This comple
 
 Congratulations! In this tutorial, you created a Linux VM in GCP and install Nginx on it. You should now be familiar with the Google Cloud Console and where to find Projects and Compute Engine Instances.
 
-Don't stop here, move on to the next part of this series, where we do the same exercise as above via the `gcloud` tool in the Google Cloud SDK! 
+Don't stop here, move on to the next part of this series, where we do the same exercise as above via the `gcloud` tool in the [Google Cloud SDK]! 
 
 [Google Cloud Console]: https://console.cloud.google.com
+[Google Cloud SDK]: https://cloud.google.com/sdk/
 
