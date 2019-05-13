@@ -44,5 +44,13 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 	* Skip all the other settings (use defaults for them)
 4. Scroll to the bottom of the page and click `Create`
 
+## Verify VM creation
+
+1. One the *Compute Engine > VM instances* page, verify that the VM that you created in the last section is present with a green check
+2. Click on the `SSH` button for your VM (do not click the drop-down)
+
+You should now be in a separate browser window with a Shell on your VM!
+
+
 [Google Cloud Console]: https://console.cloud.google.com
-[Hamburger Menu]: assets/hamburgerMenu.png
+
