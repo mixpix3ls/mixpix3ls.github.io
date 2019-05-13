@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating a Virtual Machine in Google Cloud Platform via Google Cloud Console"
+title:  "Create a Virtual Machine in Google Cloud Platform (Part 1)"
 date:   2019-05-13
 categories: Cloud
 ---
