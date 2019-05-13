@@ -41,7 +41,9 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 	  * **Service account**: `Compute Engine default service account`
 	  * **Access scopes**: `Allow default access`
 	* **Firewall**: Select `Allow HTTP traffic`
-	* `Skip all the other settings (use defaults for them)`
+	
+	Skip all the other settings (use defaults for them)
+	
 4. Scroll to the bottom of the page and click `Create`
 
 
