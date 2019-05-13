@@ -18,14 +18,14 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 
 # Google Cloud Console
 
-### Project settings
+## Project settings
 
 1. To get started, log in to the [Google Cloud Console]
 2. Click on the *Select a project* drop-down menu and click `NEW PROJECT`
 3. On the *New Project* screen, under **Project name** enter `vmdemo` and under  **Location** select `No organization`
 4. Click on the *Select a project* drop-down menu, choose `vmdemo` and click *Open*
 
-### Create a VM
+## Create a VM
 
 1. Click on the search field in the banner (look for the magnifying glass icon), type `Virtual Machines` and choose *Instances | Compute Engine*
 2. On the *VM instances* page, click `Create`
@@ -41,7 +41,7 @@ In this tutorial, you will execute the steps required to create a Linux Virtual 
 	  * **Access scopes**: `Allow default access`
 	* **Firewall**: Select `Allow HTTP traffic`
 	* `Skip all the other settings (use defaults for them)`
-1. Scroll to the bottom of the page and click `Create`
+4. Scroll to the bottom of the page and click `Create`
 
 
 [Google Cloud Console]: https://console.cloud.google.com
