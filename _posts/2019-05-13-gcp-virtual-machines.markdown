@@ -118,5 +118,19 @@ Back on the *VM instances* page, find your VM and click on the **External IP**  
 
 ![Nginx welcome content](/assets/NginxWelcome.png)
 
+### Delete the VM
+
+You have successfully created a VM in GCP and installed Nginx on it. This completes the exercise. You may now delete the VM as follows:
+
+1. Navigate back to the *VM instances* page (*Compute Engine > Instances)*
+2. Locate the row corresponding to your VM
+3. Click on the *three vertical dots* at the end of the row
+4. Click `Delete` from the options provided
+5. Confirm the deletion by clicking on the `DELETE` button in the confirmation window
+
+## Conclusion
+
+
+
 [Google Cloud Console]: https://console.cloud.google.com
 
