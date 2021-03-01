@@ -10,3 +10,4 @@ github_username:  mixpix3ls
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-minimal
