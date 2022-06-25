@@ -1,6 +1,6 @@
 # Site settings
 title: mixpix3ls
-email: admin@mixpix3ls.net
+email: mixpix3ls@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Thoughts on technology
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -10,4 +10,5 @@ github_username:  mixpix3ls
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: minima
