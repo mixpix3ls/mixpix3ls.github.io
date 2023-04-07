@@ -1,14 +1,22 @@
-# Site settings
-title: mixpix3ls
-email: mixpix3ls@protonmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Thoughts on technology
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mixpix3ls.net" # the base hostname & protocol for your site
-twitter_username: mixpix3ls
-github_username:  mixpix3ls
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+permalink:           pretty
 
-# Build settings
-markdown: kramdown
-#theme: jekyll-theme-minimal
-theme: minima
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
