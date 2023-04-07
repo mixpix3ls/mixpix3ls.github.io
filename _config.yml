@@ -1,23 +1,14 @@
-# Setup
-title:               mixpix3ls
-tagline:             'Musings on tech'
-description:         'Some thoughts on tech'
-url:                 http://mixpix3ls.net
-baseurl:             ''
-paginate:            5
-permalink:           pretty
-
-# About/contact
-author:
-  name:              Sayam Masood
-  url:               https://mixpix3ls.net
-  email:             mixpix3ls@protonmail.com
-
-# Gems
-plugins:
-  - jekyll-paginate
+# Site settings
+title: mixpix3ls
+email: mixpix3ls@protonmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Thoughts on technology
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mixpix3ls.net" # the base hostname & protocol for your site
+twitter_username: mixpix3ls
+github_username:  mixpix3ls
 
 # Build settings
 markdown: kramdown
-
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: minima
